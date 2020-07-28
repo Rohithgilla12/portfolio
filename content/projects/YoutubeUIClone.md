@@ -7,7 +7,8 @@ tech:
   - HTML
   - Tailwind CSS
   - React JS
+  - Netlify
 showInProjects: true
 ---
 
-Youtube Desktop UI clone with React and Tailwind CSS.
+A [Youtube](https://youtube.com/) frontend desktop clone with the help of React JS, Tailwind CSS. Used Netlify for CI/CD.
