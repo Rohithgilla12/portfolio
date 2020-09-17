@@ -1,10 +1,10 @@
 module.exports = {
   siteTitle: 'Rohith Gilla | Software Engineer',
   siteDescription:
-    'Rohith Gilla is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'Rohith Gilla is a software engineer based in India who specializes in building exceptional mobile applications, websites, and everything in between.',
   siteKeywords:
-    'Rohith Gilla, Brittany, Chiang, Rohithgilla12, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Rohith Gilla, Rohith, Gilla, Rohithgilla12, software engineer,gilla,rohith, front-end engineer, web developer,flutter, developer,javascript, india',
+  siteUrl: 'https://gilla.tech',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-124221578-1',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
