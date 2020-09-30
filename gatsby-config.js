@@ -2,9 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: config.siteTitle,
-    siteUrl: config.siteUrl,
-    description: config.siteDescription,
+    title: 'Rohith Gilla',
+    description:
+      'Rohith Gilla is a software engineer based in India who specializes in building exceptional mobile applications, websites, and everything in between.',
+    siteUrl: 'https://gilla.tech', // No trailing slash allowed!
+    image: '/about/me.png', // Path to your image you placed in the 'static' folder
+    twitterUsername: '@gillarohith',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
