@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Bank UI'
-cover: './demo.png'
+cover: './flutterbank.png'
 github: 'https://github.com/Rohithgilla12/BankUI'
 external: 'https://dev.to/gillarohith/bank-ui-in-flutter-2aj9'
 tech:

@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Lost Inator'
-cover: './demo.png'
+cover: './lostinator.png'
 github: 'https://github.com/Rohithgilla12/lost-inator'
 # external: 'https://halcyon-theme.netlify.com/'
 tech:
