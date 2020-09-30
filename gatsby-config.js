@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Rohith Gilla',
+        name: 'RohithGilla',
         short_name: 'RohithGilla',
         start_url: '/',
         background_color: config.colors.darkNavy,
@@ -27,6 +27,13 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'content',
@@ -36,15 +43,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/posts`,
         name: `posts`,
+        path: `${__dirname}/content/posts`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/projects`,
         name: `projects`,
+        path: `${__dirname}/content/projects`,
       },
     },
     {
@@ -141,7 +148,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: config.googleAnalyticsID,
+        trackingId: 'UA-45666519-2',
       },
     },
   ],

@@ -1,38 +1,26 @@
 module.exports = {
-  siteTitle: 'Rohith Gilla | Software Engineer',
-  siteDescription:
-    'Rohith Gilla is a software engineer based in India who specializes in building exceptional mobile applications, websites, and everything in between.',
-  siteKeywords:
-    'Rohith Gilla, Rohith, Gilla, Rohithgilla12, software engineer,gilla,rohith, front-end engineer, web developer,flutter, developer,javascript, india',
-  siteUrl: 'https://gilla.tech',
-  siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-124221578-1',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Rohith Gilla',
-  location: 'Boston, MA',
-  email: 'gillarohith1@gmail.com',
-  github: 'https://github.com/Rohithgilla12',
-  twitterHandle: '@gillarohith',
+  email: 'brittany.chiang@gmail.com',
+
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/Rohithgilla12',
+      url: 'https://github.com/bchiang7',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/rohithgilla',
+      url: 'https://www.linkedin.com/in/bchiang7',
     },
-    // {
-    //   name: 'Codepen',
-    //   url: 'https://codepen.io/Rohithgilla12',
-    // },
+    {
+      name: 'Codepen',
+      url: 'https://codepen.io/bchiang7',
+    },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/rohithgilla',
+      url: 'https://www.instagram.com/bchiang7',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/gillarohith',
+      url: 'https://twitter.com/bchiang7',
     },
   ],
 
@@ -55,15 +43,13 @@ module.exports = {
     },
   ],
 
-  navHeight: 100,
-
   colors: {
     green: '#64ffda',
     navy: '#0a192f',
     darkNavy: '#020c1b',
   },
 
-  srConfig: (delay = 200) => ({
+  srConfig: (delay = 200, viewFactor = 0.25) => ({
     origin: 'bottom',
     distance: '20px',
     duration: 500,
@@ -75,7 +61,7 @@ module.exports = {
     mobile: true,
     reset: false,
     useDelay: 'always',
-    viewFactor: 0.25,
+    viewFactor,
     viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
   }),
 };
