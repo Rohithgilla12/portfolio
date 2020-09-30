@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Internship Portal'
-cover: './demo.png'
+cover: './internshipportal.png'
 github: 'https://github.com/Rohithgilla12/InternshipPlatform'
 external: 'https://dev.to/gillarohith/internship-portal-1a1o'
 tech:
